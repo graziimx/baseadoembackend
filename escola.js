@@ -12,3 +12,5 @@ if (dadosDoAluno.bolsista) {
 
 //Alterar o tipo de bolsa
 //Adicione a saida idade
+
+//Criar um arquivo chamado aluno2 json com 5 propriedades
