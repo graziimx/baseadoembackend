@@ -30,4 +30,3 @@ if (post.metricas.curtidas === 0) { //Caso as curtidas fiquem em zero
 
 post.metricas.curtidas++;
 console.log(' Curtidas removidas. Total: ${post.metricas.curtidas}')
-}
