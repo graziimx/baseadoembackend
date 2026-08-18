@@ -1,39 +1,34 @@
 class Time {
-constructor(jogador, tecnico, cartoes, gol) {
+constructor(jogador, tecnica, cartoes, gol) {
 this.jogador = jogador;
-this.tecnico = tecnico;
+this.tecnica = tecnica;
 this.cartoes = cartoes;
 this.gol = gol;
 }
 
 apresentar() {
-console.log(
-`Este jogador fez ${this.gol}`
-);
+console.log(`O ${this.jogador} fez
+${this.gol}`);
 }
 }
 
-class timeFutebol extends Time {
-constructor(jogador, tecnico, cartoes, gol) {
-super(jogador, tecnico, cartoes, gol);
-}
-
-mostrarTime() {
-console.log("time:", `${this.nomeTime}`);
-console.log("tecnico:", `${this.tecnico}`);
+class timefutebol extends Time {
+constructor(jogador, tecnicas, cartoes, gol) {
+super(jogador, tecnicas, cartoes, gol);
 }
 }
 
 mostrarTime() {
-console.log("time:", `${this.nomeTime}`);
-console.log("tecnico:", `${this.tecnico}`);
+console.log("time:",meutime Santos `${this.nomeTime}`);
+console.log("tecnica:",meutecnico Renato Gaucho `${this.tecnicas}`);
 }
-
 let time = new timeFutebol(
-"Neymar",
-"Renato Gaúcho",
+“Neymar”,
+“Renato Gaucho”,
 2,
-3
+3,
+“Santos”,
 );
 
+time.apresentar();
 time.mostrarTime();
